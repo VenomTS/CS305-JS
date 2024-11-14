@@ -1,29 +1,40 @@
-Requirements:
+# Banking System
 
-Node.js https://nodejs.org/en
-code editor(https://code.visualstudio.com/)
+---
 
-Usage : 
-Once you run the program, terminal will display the option to either create or login into account. 
-In order to deposit, withdraw, freeze/unfreeze, or transfer funds, an account must be created.
-These options are presented by numbers on terminal, and if you wish to select that option, 
-enter the coresponding number.
+## Requirements:
 
-Goals:
-The goal of the project is to create a realistic simulation of the banking system that the user can stun
-across at the ATM or at any online banking app.
--Creating and managing accounts using database
--Simulation banking transactions
--Keeping track of all the previous transactions
--Freezing and unfreezing accounts
+- **Node.js** - Download from [nodejs.org](https://nodejs.org/en) 
+- **Code Editor** - Any editor of your choice. [Visual Studio Code](https://code.visualstudio.com/) is recommended.
 
-Features: 
--Creating and managing accounts using database
-User will be presented with the option to create an account which will be stored in a database. 
-User will have an option to manage his account, and every change that is made, will be updated in the database.
--Simulating banking transactions
-This feature simulates realistic bank transactions. It allows users to deposit, withdrawl and transfer funds.
--Keeping track of all the previous transactions
-This simulation allows user to track all of theirs successful transactions made it the past. Transactions will display the ammount of money that was sent/withdrawn 
-and in case of a bank transfer, it will show to whom the money was sent to.
--Freezing and unfreezing accounts
+## Usage:
+
+After running the program, the terminal will display options to either create a new account or log in to an existing one. To perform actions like depositing, withdrawing, freezing/unfreezing, or transferring funds, an account must be created. Each action is presented by a number on the terminal; to select an action, simply enter the corresponding number.
+
+## Goals:
+
+This project aims to create a realistic simulation of a banking system, similar to what users might experience at an ATM or in an online banking app.
+
+- Create and manage accounts stored in a database.
+- Simulate realistic banking transactions.
+- Track all previous transactions.
+- Enable freezing and unfreezing of accounts.
+
+## Features:
+
+- **Account Management**  
+  Users can create accounts, which are stored in a database, and manage them. Every change is reflected in the database to ensure data consistency.
+
+- **Simulated Banking Transactions**  
+  Allows users to perform realistic bank transactions, including deposits, withdrawals, and fund transfers.
+
+- **Transaction History**  
+  Users can view a history of all their successful transactions, including details like the amount and, for transfers, the recipient's information.
+
+- **Account Freezing/Unfreezing**  
+  Users can freeze or unfreeze their accounts as needed, adding a layer of security.
+
+---
+
+
+
