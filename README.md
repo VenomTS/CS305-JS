@@ -6,7 +6,31 @@
 
 - **Node.js** - Download from [nodejs.org](https://nodejs.org/en) 
 - **Code Editor** - Any editor of your choice. [Visual Studio Code](https://code.visualstudio.com/) is recommended.
+- 
+## How to Run the Program
 
+-Download all provided files
+-Open your terminal/command prompt.
+-Navigate to the location where you want to save the project.
+-Create a new directory by running:
+  mkdir banking-system
+  cd banking-system
+-Create the following folders, and insert the downloaded files in the directory following this structure:
+banking-system/
+├── actions/
+│   ├── Account.js
+│   ├── Deposit.js
+│   ├── Freeze.js
+│   ├── Transfer.js
+│   ├── TransactionHistory.js
+│   ├── Withdraw.js
+├── database/
+│   ├── accounts.json
+│   ├── transactions.json
+├── index.js
+
+-Use the following command to start the application:
+  node index.js
 ## Usage:
 
 After running the program, the terminal will display options to either create a new account or log in to an existing one. To perform actions like depositing, withdrawing, freezing/unfreezing, or transferring funds, an account must be created. Each action is presented by a number on the terminal; to select an action, simply enter the corresponding number.
