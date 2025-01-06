@@ -6,7 +6,7 @@
 
 - **Node.js** - Download from [nodejs.org](https://nodejs.org/en) 
 - **Code Editor** - Any editor of your choice. [Visual Studio Code](https://code.visualstudio.com/) is recommended.
-- 
+  
 ## How to Run the Program
 
 -Download all provided files
@@ -18,17 +18,17 @@
 -Create the following folders, and insert the downloaded files in the directory following this structure:
 
 banking-system/
-├── actions/
-│   ├── Account.js
-│   ├── Deposit.js
-│   ├── Freeze.js
-│   ├── Transfer.js
-│   ├── TransactionHistory.js
-│   ├── Withdraw.js
-├── database/
-│   ├── accounts.json
-│   ├── transactions.json
-├── index.js
+-actions/
+----Account.js
+----Deposit.js
+----Freeze.js
+----Transfer.js
+----TransactionHistory.js
+----Withdraw.js
+-database/
+----accounts.json
+----transactions.json
+-index.js
 
 -Use the following command to start the application:
   node index.js
