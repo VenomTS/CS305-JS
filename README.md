@@ -16,6 +16,7 @@
   mkdir banking-system
   cd banking-system
 -Create the following folders, and insert the downloaded files in the directory following this structure:
+
 banking-system/
 ├── actions/
 │   ├── Account.js
