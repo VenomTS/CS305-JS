@@ -9,29 +9,29 @@
   
 ## How to Run the Program
 
--Download all provided files
--Open your terminal/command prompt.
--Navigate to the location where you want to save the project.
--Create a new directory by running:
-  mkdir banking-system
-  cd banking-system
--Create the following folders, and insert the downloaded files in the directory following this structure:
+Download all provided files<br/>
+Open your terminal/command prompt.<br/>
+Navigate to the location where you want to save the project.<br/>
+Create a new directory by running:<br/>
+&emsp;mkdir banking-system<br/>
+&emsp;cd banking-system<br/>
+Create the following folders, and insert the downloaded files in the directory following this structure:<br/>
 
-banking-system/
--actions/
-----Account.js
-----Deposit.js
-----Freeze.js
-----Transfer.js
-----TransactionHistory.js
-----Withdraw.js
--database/
-----accounts.json
-----transactions.json
+banking-system/<br/>
+-actions/<br/>
+----Account.js<br/>
+----Deposit.js<br/>
+----Freeze.js<br/>
+----Transfer.js<br/>
+----TransactionHistory.js<br/>
+----Withdraw.js<br/>
+-database/<br/>
+----accounts.json<br/>
+----transactions.json<br/>
 -index.js
 
--Use the following command to start the application:
-  node index.js
+-Use the following command to start the application:<br/>
+&emsp;node index.js
 ## Usage:
 
 After running the program, the terminal will display options to either create a new account or log in to an existing one. To perform actions like depositing, withdrawing, freezing/unfreezing, or transferring funds, an account must be created. Each action is presented by a number on the terminal; to select an action, simply enter the corresponding number.
